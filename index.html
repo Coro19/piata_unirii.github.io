@@ -19,18 +19,17 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#history" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HISTORY</a>
-    <a href="#today" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRESENT DAY</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a href="#history" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="window.location.href='history.html'">HISTORY</a>
+    <a href="#today" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="window.location.href='history.html'">PRESENT DAY</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="window.location.href='history.html'">CONTACT</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#history" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HISTORY</a>
-  <a href="#today" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRESENT DAY</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#history" class="w3-bar-item w3-button w3-padding-large" onclick="window.location.href='history.html'">HISTORY</a>
+  <a href="#today" class="w3-bar-item w3-button w3-padding-large" onclick="window.location.href='history.html'">PRESENT DAY</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="window.location.href='history.html'">CONTACT</a>
 </div>
 
 <!-- Page content -->
@@ -95,8 +94,8 @@ body {font-family: "Lato", sans-serif}
           <img src="istorie.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>History</b></p>
-            <p>A detailed look into the rich history of this place</p>
-            <button class="w3-button w3-black w3-margin-bottom" href="history.html">HISTORY</button>
+            <p>A detailed look into the rich history of this place with the events that happened right here</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='history.html'">HISTORY</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
